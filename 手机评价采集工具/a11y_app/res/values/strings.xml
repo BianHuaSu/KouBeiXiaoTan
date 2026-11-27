@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">口碑小探评价读取</string>
+    <string name="a11y_label">口碑小探评价读取</string>
+    <string name="a11y_desc">只读取大众点评 / 美团 / 饿了么 / 京东当前页面的文字、评分和坐标，用于在电脑端整理评价。不截图，不联网上传。</string>
+</resources>

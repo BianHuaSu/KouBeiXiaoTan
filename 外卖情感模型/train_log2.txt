@@ -1,0 +1,6 @@
+语料: C:\Users\17588\Doubao\chats\2026-11-24\new-chat\外卖情感模型\..\_build\waimai_10k.csv 11987
+合成增强: 4500 正/负: 2785 1715
+标定: T=1.25 thr=0.46 valAcc=0.8960
+测试集: acc=0.8972 P=0.8383 R=0.8368 F1=0.8376 | int8: acc=0.8966 F1=0.8368 | 中性带 5.89%
+模型: C:\Users\17588\Doubao\chats\2026-11-24\new-chat\外卖情感模型\sentiment_model.json 684.7 KB
+外部自建集: acc=0.8553 P=0.9310 R=0.7500 F1=0.8308

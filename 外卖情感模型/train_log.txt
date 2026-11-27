@@ -1,0 +1,17 @@
+语料: C:\Users\17588\Doubao\chats\2026-11-24\new-chat\外卖情感模型\..\_build\waimai_10k.csv 条数: 11987
+  D=2^18 n=3 ep=10 valAcc=0.8849 valF1=0.8340
+  D=2^18 n=3 ep=20 valAcc=0.8938 valF1=0.8471
+  D=2^18 n=3 ep=30 valAcc=0.8949 valF1=0.8501
+  D=2^18 n=4 ep=10 valAcc=0.8699 valF1=0.8178
+  D=2^18 n=4 ep=20 valAcc=0.8810 valF1=0.8331
+  D=2^18 n=4 ep=30 valAcc=0.8927 valF1=0.8445
+  D=2^19 n=3 ep=10 valAcc=0.8832 valF1=0.8349
+  D=2^19 n=3 ep=20 valAcc=0.8954 valF1=0.8479
+  D=2^19 n=3 ep=30 valAcc=0.8988 valF1=0.8532
+  D=2^19 n=4 ep=10 valAcc=0.8782 valF1=0.8244
+  D=2^19 n=4 ep=20 valAcc=0.8954 valF1=0.8522
+  D=2^19 n=4 ep=30 valAcc=0.9016 valF1=0.8581
+验证集最优配置: {'D': 524288, 'n': 4, 'l2': 0.0002, 'valAcc': 0.9015572858731924, 'valF1': 0.8580593424218124, 'thr': 0.5200000000000002, 'time': 1.8}
+测试集 raw acc=0.9061 F1=0.8506 | calibrated acc=0.9061 F1=0.8500 | 中性带占比=6.67%
+int8 量化后 acc=0.9072 F1=0.8518
+模型已写入: C:\Users\17588\Doubao\chats\2026-11-24\new-chat\外卖情感模型\sentiment_model.json 大小: 683.1 KB
